@@ -3,188 +3,212 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Nick Neos
+    tagline: Data Engineer
+    avatar: nn.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: nicholas.neos@gmail.com
+    phone: 0425 735 686
+    website: www.nickneos.org #do not add http://
+    linkedin: nick-neos
+    github: # nickneos
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: # '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+    # languages:
+    #   - idiom: English
+    #     level: Native
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Photography
+        link: https://500px.com/nickneos
+      - item: Coding Projects
+        link: https://github.com/nickneos
+      - item: DJing
+        link: https://mixcloud.com/n3os
+      - item: Home DIY Projects
+      - item: Fitness
+      - item: Yoga
+      - item: Travel
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have extensive experience in the Insurance and Banking Industry having held a variety of roles at Suncorp spanning over 10 years.
+
+      Currently serving as a Data Engineer within the Chief Data Office (CDO) of Suncorp, I manage and maintain the customer data assets utilised by the Customer Operations and Marketing Solutions functions of Suncorp through established Agile and DevOps best practices.
+
+      Constantly exposed to new tools and solutions, I have gained many years of experience with a variety of tools such as MS SQL Server, DB2, Netezza, SSIS, Control-M, CDC, Tableau and more; as well as working in Agile teams utilising tools such as Jira, Confluence and Bitbucket.
+      
+      A results-driven professional with a passion for problem solving and continuous improvement. I enjoy combining deep industry knowledge and technical expertise to maximise business outcomes.
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: GradCert in Information Technology
+      university: RMIT
+      time: 2005 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Areas of study included:
+          - Database Concepts
+          - Java for Programmers
+          - Programming Fundamentals
+          - Web Programming
+          - Web Servers and Web Technology
+          - Document Mark-up Languages
+
+    - degree: GradDip in Education
+      university: University of Melbourne
+      time: 2004
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Teaching Rounds Completed at:
+          - Caroline Chisholm Catholic College
+          - Sunshine College
+          - Copperfield College
+
+    - degree: BSc in Genetics
+      university: University of Melbourne
+      time: 2004
+      details: |
+        Majors:
+          - Genetics
+        
+        Co-Major in Biotechnology
+          - Other areas of study included:
+          - Computer Science
+          - Mathematics & Statistics
+          - Biochemistry
+          - Chemistry
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Data Engineer
+      time: 2016 - Present
+      company: Suncorp
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
+        Originally I supported the data analytics and operational reporting needs of Suncorp’s Contact Centres and Branches. This involved modelling and implementing data pipelines and data objects (MS SQL Server) to be consumed by downstream visual analytics solutions (Tableau) used by frontline staff through to senior leadership teams.
+        
+        Currently I maintain and enhance Suncorp's Customer Data Assets which gets consumed through downstream reporting, analytics and campaign tools to provide the business with a 360 degree view of the customer. 
+        
+        Enhancement work often includes acquiring new data sources from external companies into our data lake (DB2) and Data Warehouse (Netezza) through established DevOps methodologies and toolsets.
+        
+        Project Achievements include:
+          - Telephony Refresh Project: TBA
+          - NCA/POP project: Technical Lead overseeing 3 other technical staff to implement the end to end delivery of a reporting solution (Tableau frontend connected to a Netezza SQL backend) to highlight customer behaviour from closed bank branches, existing bank branches and new market opportunities. This involved source data acquisition (data sources internal and external to Suncorp) to DB2 data lake; downstream insight table creation in Netezza data warehouse; and tableau dashboard development.
+          - PICT Project: Developer of reporting solutions for Contact Centre scorecards (Tableau frontend connected to MS SQL Server backend). This involved; refining our data model on SQL Server to optimise for Tableau AWS Server and maximise performance; modelling and implementation of required downstream report layer objects in SQL server; and optimising and performance tuning SQL backend to handle 2000+ users during peak times.
+          - Tactical Connected Customer Report: worked as part of a tactical team of 4 developers to harmonise customer data with 20+ source sales systems to identify staff selling products that increase customer stickiness.
+          - Lead the Migration of our MS SQL Server 2008 databases to MS SQL Server 2016.
+        
+        BAU tasks include:
+          - Responsible for co-ordinating and deploying the fortnightly release schedule for our Customer Operational Data and Marketing Solutions data assets.
+          - Maintenance of contact centre data warehouse (MS SQL) across all layers (foundation, consolidation and reporting layers); ETL processes via SSIS; performance monitoring and optimisations.
+          - Maintenance of published Tableau dashboards on AWS cloud-based server that serve 2000+ users.
+          - Overseeing our offshore service teams who deliver BAU reports for our stakeholders.
+        
+        Other Achievements:
+          - Designed and implemented the development workflow and governance framework process for our dev, uat and prod environments.
+          - Migrated SQL DDL’s and scripts to the GIT Hosting Repository Bitbucket; and lead and trained peers in utilising Bitbucket to align to Agile and DevOps best practices.
+          - Documented the Release and Deployment frameworks for the Customer Operational Data and Marketing Solutions functions of Suncorp.
+
+    - role: Insights Advisor
       time: 2014 - 2015
-      company: Google, London
+      company: Suncorp
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Part of an agile team delivering initiatives and projects that activate data and generate insights; insights that enable key stakeholders and decision makers within Suncorp’s Consumer Insurance division to optimise operational performance, sales outcomes and customer experience. Also act as an insights thought leader and subject matter expert (SME) in large-scale projects
+        
+        Key Achievements include:
+          - Data Visualisation Solutions: Designed and created Tableau-based dashboards for channel owners that included: tracking “rekeyed” policies; BDM sales performance; channel referrals into the contact centre.
+          - Metrics Alignment Project: Insights Lead for alignment project encompassing the design of KPI’s and metrics for Suncorp’s specialist brands (APIA, Shannons, Vero, JCI). This involved partnering with channel owners, heads of, project leads & CDO (Chief Data Office) to capture accurate business requirements and translate to technical requirements for implementation by CDO.
+
+    - role: Technical & Change Advisor 
+      time: 2011 - 2015
+      company: Suncorp
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Support the business through the capture, analysis and publishing of valuable business information for Suncorp’s PI Claims Assist department to drive continuous improvement and strategic decision making.
+        
+        Key Achievements include:
+          - Development of the Claims Assist Datamart (on MS SQL 2008 Server), which enabled our team to extract and store data (via ETL tools) from multiple data sources to deliver centralised reports to support the operational performance of the Claims Assist Department.
+          - Implementation of NICE quality management system for 600+ users in the contact centre, backend data acquisition into Claims Assist Datamart, and Quality framework design.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # assignments:
+    #   - title: Velocity
+    #     link: "#hook"
+    #     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    #   - title: DevStudio
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    #   - title: Tempo
+    #     link: "#"
+    #     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    #   - title: Atom
+    #     link: "#"
+    #     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    #   - title: Delta
+    #     link: "#"
+    #     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
+      - name: SQL Development (SQL Server, Netezza, DB2)
         level: 98%
-
-      - name: Javascript & jQuery
+      - name: ETL Tools (SSIS)
         level: 98%
-
-      - name: Angular
+      - name:  Excel, Access, VBA
         level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Data Viz (Tableau, Power BI)
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Shell Scripting (Bash, Powershell)
+        level: 85%
+      - name: Python
+        level: 80%
+      - name: Command LIne Git
+        level: 80%
+      - name: Agile & DevOps
+        level: 75%
+      - name: Data Replication Tools (CDC)
+        level: 65%
+      - name: Scheduling Tools (Control-M)
+        level: 65%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    <a href="https://www.nickneos.org" target="_blank" rel="nofollow">www.nickneos.org</a>
