@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: nicholas.neos@gmail.com
     phone: 0425 735 686
-    website: www.nickneos.org #do not add http://
+    website: www.nickneos.com #do not add http://
     linkedin: nick-neos
     github: # nickneos
     telegram: # add your nickname without '@' sign
@@ -76,7 +76,7 @@ education:
 
     - degree: BSc in Genetics
       university: University of Melbourne
-      time: 2004
+      time: 2001 - 2003
       details: |
         Majors:
           - Genetics
@@ -201,14 +201,14 @@ skills:
         level: 85%
       - name: Python
         level: 80%
-      - name: Command LIne Git
+      - name: Command Line Git
         level: 80%
       - name: Agile & DevOps
         level: 75%
       - name: Data Replication Tools (CDC)
         level: 65%
-      - name: Scheduling Tools (Control-M)
+      - name: Scheduling Tools (Control&#x2011;M)
         level: 65%
 
 footer: >
-    <a href="https://www.nickneos.org" target="_blank" rel="nofollow">www.nickneos.org</a>
+    <a href="https://www.nickneos.com" target="_blank" rel="nofollow">www.nickneos.com</a>
