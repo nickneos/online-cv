@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Nick Neos
     tagline: Data Engineer
-    avatar: nn.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: nn1.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: nicholas.neos@gmail.com
@@ -44,16 +44,16 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I have extensive experience in the Insurance and Banking Industry having held a variety of roles at Suncorp spanning over 10 years.
+      Extensive experience in Data and Technology, having held a variety of roles in tech teams over the last 10 years.
 
-      Currently serving as a Data Engineer within the Chief Data Office (CDO) of Suncorp, I manage and maintain the customer data assets utilised by the Customer Operations and Marketing Solutions functions of Suncorp through established Agile and DevOps best practices.
+      Currently a Data Engineer within the Chief Data Office (CDO) of Suncorp, responsible for managing the customer data assets utilised by the Customer Operations and Marketing Solutions functions of Suncorp through established Agile and DevOps best practices.
 
-      Constantly exposed to new tools and solutions, I have gained many years of experience with a variety of tools such as MS SQL Server, DB2, Netezza, SSIS, Control-M, CDC, Tableau and more; as well as working in Agile teams utilising tools such as Jira, Confluence and Bitbucket.
-      
-      A results-driven professional with a passion for problem solving and continuous improvement. I enjoy combining deep industry knowledge and technical expertise to maximise business outcomes.
+      Many years of experience with a variety of platforms and tools such as MS SQL Server, SSIS, DB2, Netezza, Control-M, CDC, Tableau, Power BI and more; as well as working in Agile teams utilising tools such as Jira, Confluence and Bitbucket.
+
+      A results-driven professional with a passion for problem solving and continuous improvement. Enjoys combining deep industry knowledge and technical expertise to maximise business outcomes. 
       
 education:
-    - degree: GradCert in Information Technology
+    - degree: Graduate Certificate in Information Technology
       university: RMIT
       time: 2005 - 2006
       details: |
@@ -65,7 +65,7 @@ education:
           - Web Servers and Web Technology
           - Document Mark-up Languages
 
-    - degree: GradDip in Education
+    - degree: Graduate Diploma in Education
       university: University of Melbourne
       time: 2004
       details: |
@@ -74,7 +74,7 @@ education:
           - Sunshine College
           - Copperfield College
 
-    - degree: BSc in Genetics
+    - degree: Bachelor of Science
       university: University of Melbourne
       time: 2001 - 2003
       details: |
@@ -87,21 +87,21 @@ education:
           - Mathematics & Statistics
           - Biochemistry
           - Chemistry
-
+ 
 experiences:
     - role: Data Engineer
       time: 2016 - Present
       company: Suncorp
       details: |
-        Originally I supported the data analytics and operational reporting needs of Suncorp’s Contact Centres and Branches. This involved modelling and implementing data pipelines and data objects (MS SQL Server) to be consumed by downstream visual analytics solutions (Tableau) used by frontline staff through to senior leadership teams.
+        Originally I supported the data analytics and operational reporting needs of Suncorp’s Contact Centres and Branches. This involved data modelling and implementing data pipelines and objects (MS SQL Server) to be consumed by downstream visual analytics solutions (Tableau) used by frontline staff through to senior leadership teams.
         
         Currently I maintain and enhance Suncorp's Customer Data Assets which gets consumed through downstream reporting, analytics and campaign tools to provide the business with a 360 degree view of the customer. 
         
-        Enhancement work often includes acquiring new data sources from external companies into our data lake (DB2) and Data Warehouse (Netezza) through established DevOps methodologies and toolsets.
+        Enhancement work often includes the acquisition of new data sources from external companies into our data lake (DB2) and Data Warehouse (Netezza) through established DevOps methodologies and toolsets.
         
         Project Achievements include:
-          - Telephony Refresh Project: TBA
-          - NCA/POP project: Technical Lead overseeing 3 other technical staff to implement the end to end delivery of a reporting solution (Tableau frontend connected to a Netezza SQL backend) to highlight customer behaviour from closed bank branches, existing bank branches and new market opportunities. This involved source data acquisition (data sources internal and external to Suncorp) to DB2 data lake; downstream insight table creation in Netezza data warehouse; and tableau dashboard development.
+          - Telephony Migration Project: Data Engineer in the project, to migrate telephony data from the Avaya platform to the Genesys platform. This involved acquisition of the Genesys telephony data to the data lake and implementing the data pipelines to the numerous downstream reporting databases including SQL Server, Netezza and Redshift. Tools used included Control-M for orchestration; CDC and DMS for data movement between databases; SSIS for ETL; powershell for scripting; to name a few.
+          - NCA/POP project: Technical Lead overseeing 3 other technical staff to implement the end to end delivery of a reporting solution (Tableau frontend connected to a Netezza SQL backend) to highlight customer behaviour from closed bank branches, existing bank branches and new market opportunities. This involved source data acquisition (data sources internal and external to Suncorp) to the data lake; downstream insight table creation in Netezza data warehouse; and tableau dashboard development.
           - PICT Project: Developer of reporting solutions for Contact Centre scorecards (Tableau frontend connected to MS SQL Server backend). This involved; refining our data model on SQL Server to optimise for Tableau AWS Server and maximise performance; modelling and implementation of required downstream report layer objects in SQL server; and optimising and performance tuning SQL backend to handle 2000+ users during peak times.
           - Tactical Connected Customer Report: worked as part of a tactical team of 4 developers to harmonise customer data with 20+ source sales systems to identify staff selling products that increase customer stickiness.
           - Lead the Migration of our MS SQL Server 2008 databases to MS SQL Server 2016.
