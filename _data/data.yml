@@ -45,12 +45,13 @@ career-profile:
     title: Career Profile
     summary: |
       Extensive experience in Data and Technology, having held a variety of roles in tech teams over the last 10 years.
+      
+      Currently a Data Engineer within the Chief Data Office (CDO) of Suncorp, responsible for managing the customer data assets utilised by the Customer Operations and Marketing Solutions functions of Suncorp. Have also worked in squads as a Data Engineer supporting Contact Centres, Bank & Wealth, and PI Claims.
+      
+      Many years of experience with a variety of platforms and tools such as MS SQL Server, SSIS, Netezza, AWS Redshift, DB2, Control-M, CDC, Tableau, Power BI and more; as well as working in Scrum based Agile teams utilising tools such as Jira, Confluence and Bitbucket.
+      
+      A results-driven professional with a passion for problem solving and continuous improvement. Enjoys combining deep industry knowledge and technical expertise to maximise business outcomes.
 
-      Currently a Data Engineer within the Chief Data Office (CDO) of Suncorp, responsible for managing the customer data assets utilised by the Customer Operations and Marketing Solutions functions of Suncorp through established Agile and DevOps best practices.
-
-      Many years of experience with a variety of platforms and tools such as MS SQL Server, SSIS, DB2, Netezza, Control-M, CDC, Tableau, Power BI and more; as well as working in Agile teams utilising tools such as Jira, Confluence and Bitbucket.
-
-      A results-driven professional with a passion for problem solving and continuous improvement. Enjoys combining deep industry knowledge and technical expertise to maximise business outcomes. 
       
 education:
     - degree: Graduate Certificate in Information Technology
@@ -93,29 +94,23 @@ experiences:
       time: 2016 - Present
       company: Suncorp
       details: |
-        Originally I supported the data analytics and operational reporting needs of Suncorp’s Contact Centres and Branches. This involved data modelling and implementing data pipelines and objects (MS SQL Server) to be consumed by downstream visual analytics solutions (Tableau) used by frontline staff through to senior leadership teams.
+        Data Engineer in a scrum based agile team, supporting the continuous delivery of Suncorp’s Customer Data Assets for Product Owners in Customer Operations and Marketing Solutions. These data assets get consumed through downstream reporting, analytics and campaign tools to provide the business with a 360 degree view of the customer. 
         
-        Currently I maintain and enhance Suncorp's Customer Data Assets which gets consumed through downstream reporting, analytics and campaign tools to provide the business with a 360 degree view of the customer. 
+        BAU Achievements & Responsibilities:
+          - Designed and implemented the development workflow and governance framework process for our DEV, UAT and PROD environments.
+          - Responsible for co-ordinating and deploying the fortnightly release schedule for our data assets. 
+          - Migrated SQL DDL’s and scripts to Git (Bitbucket); and lead and trained peers in utilising Bitbucket to align to Agile and DevOps best practices.
+          - Overseeing our offshore service teams who deliver BAU reports for our stakeholders. 
+          - Regular acquisition of new data sources from external companies into our data lake and downstream pipelines through established DevOps methodologies and toolsets.
         
-        Enhancement work often includes the acquisition of new data sources from external companies into our data lake (DB2) and Data Warehouse (Netezza) through established DevOps methodologies and toolsets.
-        
-        Project Achievements include:
-          - Telephony Migration Project: Data Engineer in the project, to migrate telephony data from the Avaya platform to the Genesys platform. This involved acquisition of the Genesys telephony data to the data lake and implementing the data pipelines to the numerous downstream reporting databases including SQL Server, Netezza and Redshift. Tools used included Control-M for orchestration; CDC and DMS for data movement between databases; SSIS for ETL; powershell for scripting; to name a few.
-          - NCA/POP project: Technical Lead overseeing 3 other technical staff to implement the end to end delivery of a reporting solution (Tableau frontend connected to a Netezza SQL backend) to highlight customer behaviour from closed bank branches, existing bank branches and new market opportunities. This involved source data acquisition (data sources internal and external to Suncorp) to the data lake; downstream insight table creation in Netezza data warehouse; and tableau dashboard development.
-          - PICT Project: Developer of reporting solutions for Contact Centre scorecards (Tableau frontend connected to MS SQL Server backend). This involved; refining our data model on SQL Server to optimise for Tableau AWS Server and maximise performance; modelling and implementation of required downstream report layer objects in SQL server; and optimising and performance tuning SQL backend to handle 2000+ users during peak times.
-          - Tactical Connected Customer Report: worked as part of a tactical team of 4 developers to harmonise customer data with 20+ source sales systems to identify staff selling products that increase customer stickiness.
-          - Lead the Migration of our MS SQL Server 2008 databases to MS SQL Server 2016.
-        
-        BAU tasks include:
-          - Responsible for co-ordinating and deploying the fortnightly release schedule for our Customer Operational Data and Marketing Solutions data assets.
-          - Maintenance of contact centre data warehouse (MS SQL) across all layers (foundation, consolidation and reporting layers); ETL processes via SSIS; performance monitoring and optimisations.
-          - Maintenance of published Tableau dashboards on AWS cloud-based server that serve 2000+ users.
-          - Overseeing our offshore service teams who deliver BAU reports for our stakeholders.
-        
-        Other Achievements:
-          - Designed and implemented the development workflow and governance framework process for our dev, uat and prod environments.
-          - Migrated SQL DDL’s and scripts to the GIT Hosting Repository Bitbucket; and lead and trained peers in utilising Bitbucket to align to Agile and DevOps best practices.
-          - Documented the Release and Deployment frameworks for the Customer Operational Data and Marketing Solutions functions of Suncorp.
+        Project Achievements:
+          - Telephony Migration Project: One of 3 Data Engineering resources assigned to the project. Project objective was to migrate telephony data from the Avaya platform to the Genesys platform. This involved acquisition of the Genesys telephony data to the data lake and implementation of the data pipelines to the numerous downstream reporting databases including MS SQL Server, Netezza and Redshift. 
+          - CoreLogic: Acquisition of data from CoreLogic (property market data) into Data Lake, and integrating into downstream database through to Oracle Responsys (marketing tool) to send out targeted marketing emails to customers who have recently listed their property on the market
+          -	Next Best Action: Worked closely with Data Science team for their "Next Best Action" models – a customer personalisation platform to support personalised online ads, targeted campaign emails, and contact centre referral system. I helped integrate data sources (such as Mosaic customer segmentation data, and ABS data) into Redshift to be consumed by Domino Data Lab (Data Science platform).
+          - NCA/POP project: Technical Lead overseeing 3 other technical staff to implement the end to end delivery of a reporting solution (Tableau frontend connected to a Netezza SQL backend) to highlight customer behaviour from closed bank branches, existing bank branches and new market opportunities. This involved source data acquisition (data sources internal and external to Suncorp) to the data lake; downstream insight table creation in Netezza data warehouse; and Tableau dashboard development.
+          - PICT Project: Developer of reporting solutions for Contact Centre scorecards (Tableau frontend connected to MS SQL Server backend). This involved; refining our data model on MS SQL Server to optimise for Tableau AWS Server and maximise performance; modelling and implementation of required downstream report layer objects in SQL server; and optimising and performance tuning SQL backend to handle 2000+ users during peak times.
+          - Technical Lead for the migration of MS SQL Server 2008 databases to MS SQL Server 2016.
+
 
     - role: Insights Advisor
       time: 2014 - 2015
@@ -189,26 +184,26 @@ experiences:
 skills:
     title: Skills &amp; Proficiency
     toolset:
-      - name: SQL Development (SQL Server, Netezza, DB2)
+      - name: SQL Development (SQL Server, Netezza, DB2, AWS Redshift)
         level: 98%
       - name: ETL Tools (SSIS)
         level: 98%
       - name:  Excel, Access, VBA
         level: 98%
-      - name: Data Viz (Tableau, Power BI)
+      - name: Agile & DevOps
         level: 85%
       - name: Shell Scripting (Bash, Powershell)
         level: 85%
+      - name: Command Line Git
+        level: 85%
       - name: Python
         level: 80%
-      - name: Command Line Git
+      - name: Data Viz (Tableau, Power BI)
         level: 80%
-      - name: Agile & DevOps
-        level: 75%
       - name: Data Replication Tools (CDC)
-        level: 65%
-      - name: Scheduling Tools (Control&#x2011;M)
-        level: 65%
+        level: 70%
+      - name: Orchestration & Scheduling Tools (Control&#x2011;M)
+        level: 70%
 
 footer: >
     <a href="https://www.nickneos.com" target="_blank" rel="nofollow">www.nickneos.com</a>
